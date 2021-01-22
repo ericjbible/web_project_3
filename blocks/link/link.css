@@ -1,0 +1,6 @@
+@import url(./__lang-link/link__lang-link.css);
+@import url(./__lang-link/link__lang-link_active.css);
+
+.link {
+  color: #fff;
+}

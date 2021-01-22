@@ -1,0 +1,6 @@
+.page__wrapper {
+  max-width: 1184px;
+  margin: auto;
+  width: calc(100% - 96px);
+  border: red solid 1px;
+}

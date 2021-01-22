@@ -6,3 +6,9 @@
 .link__lang-link + .link__lang-link {
   margin-left: 18px;
 }
+
+@media screen and (max-width: 320px) {
+  .link__lang-link {
+    font-size: 18px;
+  }
+}

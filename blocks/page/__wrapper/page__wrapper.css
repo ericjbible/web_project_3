@@ -2,5 +2,16 @@
   max-width: 1184px;
   margin: auto;
   width: calc(100% - 96px);
-  border: red solid 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__wrapper {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__wrapper {
+    min-width: calc(320px - 32px);
+  }
 }

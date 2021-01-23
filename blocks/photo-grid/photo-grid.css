@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
+  margin: 0 0 92px 0;
 }
 
 .item {
@@ -22,6 +23,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, 352px);
     grid-template-rows: repeat(6, 264px);
+    margin: 0 0 88px 0;
   }
 }
 
@@ -30,5 +32,6 @@
     grid-template-columns: 288px;
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
+    margin: 0 0 64px 0;
   }
 }

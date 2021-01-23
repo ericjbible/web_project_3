@@ -8,3 +8,9 @@
 .place__column + .place__column {
   margin-left: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .place__column + .place__column {
+    margin-left: 28px;
+  }
+}

@@ -7,3 +7,15 @@
   width: 690px;
   margin-left: 100px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 100%;
+  }
+}

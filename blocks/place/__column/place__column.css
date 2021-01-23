@@ -1,0 +1,10 @@
+.place__column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.place__column + .place__column {
+  margin-left: 40px;
+}

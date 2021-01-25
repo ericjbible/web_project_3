@@ -1,14 +1,14 @@
-.link__lang-link {
+.languages__link {
   font-size: 24px;
   text-decoration: none;
 }
 
-.link__lang-link + .link__lang-link {
+.languages__link + .languages__link {
   margin-left: 18px;
 }
 
 @media screen and (max-width: 320px) {
-  .link__lang-link {
+  .languages__link {
     font-size: 18px;
   }
 }

@@ -1,4 +1,15 @@
-@import url(./__nav/footer__nav.css);
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
+@import url(./__url/footer__url.css);
 @import url(./__copyright/footer__copyright.css);
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    display: block;
+  }
+}

@@ -6,11 +6,9 @@
 
 .place {
   display: grid;
-  flex-direction: row;
-}
-
-@media screen and (max-width: 900px) {
-  .place {
-    flex-wrap: wrap;
-  }
+  grid-template-columns: 460px 484px;
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  column-gap: 40px;
 }

@@ -4,6 +4,9 @@
 .place__website {
   display: flex;
   flex-direction: column;
+  grid-area: "website";
+  min-height: 76px;
+  margin: 0 0 48px 0;
 }
 
 @media screen and (max-width: 320px) {

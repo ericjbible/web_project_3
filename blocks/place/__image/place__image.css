@@ -1,7 +1,7 @@
 .place__image {
   max-width: 460px;
   max-height: 460px;
-  grid-area: "image";
+  grid-area: image;
 }
 
 @media screen and (max-width: 1024px) {

@@ -29,6 +29,7 @@
 @media screen and (max-width: 720px) {
   .place {
     justify-content: center;
+    grid-template-columns: auto;
     grid-template-areas:
     "title"
     "website"

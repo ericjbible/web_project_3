@@ -11,3 +11,27 @@
   "image paragraph";
   column-gap: 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 456px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-area:
+    "title"
+    "website"
+    "image"
+    "paragraph";
+  }
+}

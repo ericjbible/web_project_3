@@ -9,8 +9,8 @@
   margin: 0 0 48px 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__website {
-    display: none;
+    min-height: 42px;
   }
 }

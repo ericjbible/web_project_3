@@ -5,7 +5,7 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-  display: flex;
+  display: grid;
   flex-direction: row;
 }
 

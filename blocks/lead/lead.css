@@ -6,8 +6,6 @@
 
 .lead {
   margin: 58px 100px 0px;
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 320px) {

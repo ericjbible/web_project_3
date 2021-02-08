@@ -1,3 +1,6 @@
+@import url(./__logo/header__logo.css);
+@import url(./__languages/header__languages.css);
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -7,26 +10,3 @@
   margin: auto;
 }
 
-.header__logo {
-  margin-left: 148px;
-}
-
-@media screen and (max-width: 1024px) {
-  .header__logo {
-    margin-left: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header__logo {
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header__logo {
-    margin-left: 16px;
-    max-width: 156px;
-    max-height: 36px;
-  }
-}

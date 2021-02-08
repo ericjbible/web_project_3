@@ -1,5 +1,5 @@
-@import url(./__link/languages__link.css);
-@import url(./__link/languages__link_active.css);
+@import url(./_link/header__languages_link.css);
+@import url(./_link/header__languages_link_active.css);
 
 .header__languages {
   margin-right: 148px;

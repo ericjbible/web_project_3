@@ -2,11 +2,11 @@
 @import url(./__link/languages__link_active.css);
 
 .languages {
-  margin-right: 100px;
+  margin-right: 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .languages {
-    margin: 0;
+    margin-right: 48px;
   }
 }

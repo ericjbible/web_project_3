@@ -1,5 +1,8 @@
 .places {
-  margin: 0 100px 92px;
+  margin: 0 11% 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .place + .place {
@@ -8,7 +11,7 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    margin: 0 48px 92px;
+    margin: 0 4% 92px;
   }
 }
 

@@ -2,7 +2,8 @@
   text-decoration: none;
   color: #fff;
   min-height: 740px;
-  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +13,7 @@
   background: url(../../../images/cover-bg.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: contain;
 }
 
 .cover__overlay::after {

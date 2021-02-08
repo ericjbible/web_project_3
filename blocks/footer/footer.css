@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 92px;
+  max-width: 1280px;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .footer {
     margin-top: 64px;
     display: block;

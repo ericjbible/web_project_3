@@ -1,12 +1,13 @@
 .footer__links {
   font-size: 16px;
   line-height: 18px;
+  margin: 0 0 0 48px;
   padding: 0;
   list-style: none;
   display: inline-flex;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .footer__links {
     display: block;
     margin: 0 0 0 16px;

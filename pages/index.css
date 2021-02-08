@@ -12,63 +12,22 @@
 @import url(../blocks/footer/footer.css);
 
 @font-face {
-  src: url(../vendor/fonts/Inter-Regular.woff);
+  src: url(./Inter-Regular.woff);
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  src: url(../vendor/fonts/Inter-Regular.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  src: url(../vendor/fonts/Inter-Regular.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-}
-@font-face {
-  src: url(../vendor/fonts/Inter-Black.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  src: url(../vendor/fonts/Inter-Black.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  src: url(../vendor/fonts/Inter-Black.woff);
+  src: url(./Inter-Black.woff);
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
 }
 
 @font-face {
-  src: url(../vendor/fonts/Inter-Bold.woff);
+  src: url(./Inter-Bold.woff);
   font-family: 'Inter';
-  font-style: bold;
-  font-weight: 400;
-}
-
-@font-face {
-  src: url(../vendor/fonts/Inter-Bold.woff);
-  font-family: 'Inter';
-  font-style: bold;
+  font-style: normal;
   font-weight: 700;
-}
-
-@font-face {
-  src: url(../vendor/fonts/Inter-Bold.woff);
-  font-family: 'Inter';
-  font-style: bold;
-  font-weight: 900;
 }

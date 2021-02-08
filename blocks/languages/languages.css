@@ -1,12 +1,24 @@
 @import url(./__link/languages__link.css);
 @import url(./__link/languages__link_active.css);
 
-.languages {
+.header__languages {
   margin-right: 148px;
 }
 
 @media screen and (max-width: 1024px) {
-  .languages {
+  .header__languages {
     margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__languages {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__languages {
+    margin-right: 16px;
   }
 }

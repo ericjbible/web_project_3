@@ -7,6 +7,12 @@
   display: inline-flex;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin: 0 0 0 24px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .footer__links {
     display: block;

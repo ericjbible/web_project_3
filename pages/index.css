@@ -10,24 +10,3 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-@font-face {
-  src: url(./Inter-Regular.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  src: url(./Inter-Black.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-}
-
-@font-face {
-  src: url(./Inter-Bold.woff);
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-}

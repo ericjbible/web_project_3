@@ -12,6 +12,10 @@
   column-gap: 40px;
 }
 
+.place + .place {
+  margin-top: 80px;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 456px;

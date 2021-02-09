@@ -7,10 +7,6 @@
   padding: 0;
 }
 
-.intro__list_bold {
-  font-weight: bold;
-}
-
 @media screen and (max-width: 768px) {
   .intro__list {
     margin: 0 0 88px 0;
